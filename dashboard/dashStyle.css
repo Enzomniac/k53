@@ -1,0 +1,46 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+ol, ul {
+    list-style: none;
+  }
+  
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+body {
+    padding: 0.5rem;
+    font-family: monospace;
+}
+
+.normal-form {
+    border: 2px solid black;
+    padding: 0.5rem;
+}
+
+.a-row + .a-row {
+    margin-top: 1rem;
+}
+
+.a-row {
+    display: flex;
+    align-items: center;
+}
+
+.a-label {
+    margin-right: 2rem;
+}
