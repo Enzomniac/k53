@@ -1,0 +1,68 @@
+.hidden {
+    display: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.link + .link {
+    border-left: 1px solid black;
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.question {
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.an-answer {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-left: 1rem;
+}
+
+.an-answer:hover {
+    background-color: lightgrey;
+    cursor: pointer;
+}
+
+.an-answer + .an-answer {
+    border-top: 1px solid black;    
+}
+
+.card {
+    border: 1px solid black;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.flow {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.theImage {
+    text-align: center;
+}
+
+.form__login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem 0;
+}
+
+.form__row {
+    margin: 0.5rem 0;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
