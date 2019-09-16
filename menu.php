@@ -8,6 +8,11 @@
     <title>Document</title>
 </head>
 <body>
+    <div class="state-data">
+        <?php
+            var_dump($_GET);
+        ?>
+    </div>
     <div class="menu">
         <button class="form__row">STUDY</button>
         <button class="form__row">PRACTISE TEST</button>
